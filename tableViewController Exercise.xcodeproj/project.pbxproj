@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		516C77F61D353730007DCBCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C77F51D353730007DCBCD /* AppDelegate.swift */; };
-		516C77F81D353730007DCBCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C77F71D353730007DCBCD /* ViewController.swift */; };
 		516C77FB1D353730007DCBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516C77F91D353730007DCBCD /* Main.storyboard */; };
 		516C77FD1D353730007DCBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C77FC1D353730007DCBCD /* Assets.xcassets */; };
 		516C78001D353730007DCBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516C77FE1D353730007DCBCD /* LaunchScreen.storyboard */; };
 		516C780B1D353730007DCBCD /* tableViewController_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C780A1D353730007DCBCD /* tableViewController_ExerciseTests.swift */; };
 		516C78161D353731007DCBCD /* tableViewController_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C78151D353731007DCBCD /* tableViewController_ExerciseUITests.swift */; };
+		516C78261D3538C7007DCBCD /* MyTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C78251D3538C7007DCBCD /* MyTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		516C77F21D353730007DCBCD /* tableViewController Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableViewController Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C77F51D353730007DCBCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		516C77F71D353730007DCBCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		516C77FA1D353730007DCBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		516C77FC1D353730007DCBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516C77FF1D353730007DCBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		516C78111D353731007DCBCD /* tableViewController ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableViewController ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		516C78151D353731007DCBCD /* tableViewController_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController_ExerciseUITests.swift; sourceTree = "<group>"; };
 		516C78171D353731007DCBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516C78251D3538C7007DCBCD /* MyTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				516C77F51D353730007DCBCD /* AppDelegate.swift */,
-				516C77F71D353730007DCBCD /* ViewController.swift */,
 				516C77F91D353730007DCBCD /* Main.storyboard */,
 				516C77FC1D353730007DCBCD /* Assets.xcassets */,
 				516C77FE1D353730007DCBCD /* LaunchScreen.storyboard */,
 				516C78011D353730007DCBCD /* Info.plist */,
+				516C78251D3538C7007DCBCD /* MyTableVC.swift */,
 			);
 			path = "tableViewController Exercise";
 			sourceTree = "<group>";
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516C77F81D353730007DCBCD /* ViewController.swift in Sources */,
 				516C77F61D353730007DCBCD /* AppDelegate.swift in Sources */,
+				516C78261D3538C7007DCBCD /* MyTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
