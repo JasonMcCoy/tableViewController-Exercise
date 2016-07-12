@@ -32,9 +32,15 @@ class MyTableVC: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = cars[indexPath.row]
-        cell.detailTextLabel?.text = "I like my ](cars[indexPath.row])"
+        cell.detailTextLabel?.text = "I like my \(cars[indexPath.row])"
 
         return cell
     }
-
+    
+    /* Hide Status Bar */
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    /* End Hide Status Bar */
+    
 }
